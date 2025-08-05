@@ -5,7 +5,11 @@ body {
   background: #f9f9f9;
   color: #333;
 }
-
+.logo {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+  
 header {
   background: #4f46e5;
   color: white;
