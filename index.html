@@ -41,5 +41,34 @@
   <footer>
     Made by Cristian Romanesei • <a href="https://github.com/romaneseicristian">GitHub</a>
   </footer>
+<!--   This is the custom modal, will show only on callll -->
+  <div id="linkModal" class="modal hidden">
+  <div class="modal-content">
+    <h2>Customize Your Link Page</h2>
+
+    <label>Header Image:</label>
+    <input type="file" id="headerImage" accept="image/*" />
+
+    <div class="link-inputs">
+      <!-- Repeat this block 3 times -->
+      <div class="link-block">
+        <label>Link URL:</label>
+        <input type="text" class="link-url" placeholder="https://example.com" />
+
+        <label>Type:</label>
+        <select class="link-type">
+          <option value="website">Website</option>
+          <option value="social">Social</option>
+        </select>
+
+        <label>Thumbnail:</label>
+        <input type="file" class="link-thumbnail" accept="image/*" />
+      </div>
+    </div>
+
+    <button id="generateBtn" class="cta-button">Generate</button>
+    <button id="closeModal" class="cta-button" style="background:#ccc; color:#333;">Cancel</button>
+  </div>
+</div>
 </body>
 </html>
