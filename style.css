@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background: #f9f9f9;
+  background-color: #f4f6f8;
   color: #333;
 }
 .logo {
@@ -17,6 +18,16 @@ header {
   padding: 2rem;
   text-align: center;
 }
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
 
 .hero {
   padding: 3rem 1rem;
@@ -104,6 +115,21 @@ footer {
   margin-bottom: 1.5rem;
   border-top: 1px solid #eee;
   padding-top: 1rem;
+}
+
+/* Add spacing between sections */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Smooth hover effect for buttons */
+.cta-button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
 }
 /* style for generated landing  */
 
