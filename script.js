@@ -55,6 +55,7 @@ function fileToBase64(file, callback) {
   });
 
   alert('Your data has been saved temporarily!');
+   window.location.href = 'preview.html';
 });
 
 window.addEventListener('DOMContentLoaded', () => {
