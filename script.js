@@ -6,6 +6,14 @@
     modal.classList.remove('hidden');
   });
 
+// Close modal when clicking outside the modal content
+window.addEventListener('click', function (event) {
+  if (event.target === modal) {
+    modal.classList.add('hidden');
+  }
+});
+
+
   closeBtn.addEventListener('click', () => {
     modal.classList.add('hidden');
   });
