@@ -16,3 +16,9 @@
     // Later: store data in localStorage and redirect
     window.location.href = 'your-links.html';
   });
+
+function fileToBase64(file, callback) {
+  const reader = new FileReader();
+  reader.onload = () => callback(reader.result);
+  reader.readAsDataURL(file);
+}
