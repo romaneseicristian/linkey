@@ -105,3 +105,53 @@ footer {
   border-top: 1px solid #eee;
   padding-top: 1rem;
 }
+/* style for generated landing  */
+
+.preview-section {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-image {
+  max-width: 300px;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.link-card {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.link-thumbnail {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.link-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-type {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.link-url {
+  font-size: 1rem;
+  color: #0077cc;
+  text-decoration: none;
+}
